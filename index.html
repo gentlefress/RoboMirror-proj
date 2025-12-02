@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion">
+  <meta property="og:title" content="RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion"/>
+  <meta property="og:description" content="RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/teaser.png" />
+  <meta property="og:image:width" content="1808"/>
+  <meta property="og:image:height" content="1014"/>
+
+
+  <meta name="twitter:title" content="RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion">
+  <meta name="twitter:description" content="RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/teaser-1.pdf">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Motion Generation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>RoboMirror</title>
+  
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JHTFKVMFDL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JHTFKVMFDL');
+</script>
+  
+  <link rel="icon" type="image/x-icon" href="static/images/framework.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://aigc3d.github.io/LaMP/">
+            RoboGhost (ICLR 2025)
+          </a>
+          <a class="navbar-item" href="https://arxiv.org/abs/2412.09901">
+            RoboPerform
+          </a>
+        </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+  
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">
+              <!-- 新增img标签用于显示小图标 -->
+              <img src="static/images/icon.png" style="width: 64px; height: 64px; vertical-align: middle; margin-right: 8px;">
+              RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion
+            </h1>
+
+            
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                Zhe Li<sup>1</sup>*,
+              </span>
+              <span class="author-block">
+                Cheng Chi<sup>2</sup>*‡,
+              </span>
+              <span class="author-block">
+                Boan Zhu<sup>3</sup>*,
+              </span>
+              <span class="author-block">
+                Yangyang Wei<sup>4</sup>,
+              </span>
+              <span class="author-block">
+                Shuanghao Bai<sup>5</sup>,
+              </span>
+              <span class="author-block">
+                Yuheng Ji<sup>6</sup>,
+              </span>
+              <span class="author-block">
+                Yibo Peng<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                Tao Huang<sup>7</sup>,
+              </span>
+              <span class="author-block">
+                Pengwei Wang<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                Zhongyuan Wang<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                S.-H. Gary Chan<sup>3</sup>,
+              </span>
+              <span class="author-block">
+                Chang Xu<sup>1</sup>†
+              </span>
+              <span class="author-block">
+                Shanghang Zhang<sup>2,8</sup>†,
+              </span>
+
+              
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="eql-cntrb" style="display:block;"><large><sup>1</sup>University of Sydney</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>2</sup>BAAI</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>3</sup>Hong Kong University of Science and Technology</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>4</sup>Harbin Institute of Technology</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>5</sup>Xian Jiao Tong University</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>6</sup>Chinese Academy of Sciences</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>7</sup>Shanghai Jiao Tong University</large></span>
+              <span class="eql-cntrb" style="display:block;"><large><sup>8</sup>Peking University</large></span>
+
+            <div class="is-size-5 publication-authors">
+              <span class="eql-cntrb">* Equal Contribution &nbsp &nbsp ‡ Project Lead &nbsp &nbsp † Corresponding Author </span>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- <img src="static/images/framework.pdf" alt="MY ALT TEXT"/> -->
+          <p>
+            Humans learn locomotion through visual observation, interpreting visual content first before imitating actions. However, state-of-the-art humanoid locomotion systems rely on either curated motion capture trajectories or sparse text commands, leaving a critical gap between visual understanding and control. Text-to-motion methods suffer from semantic sparsity and staged pipeline errors, while video-based approaches only perform mechanical pose mimicry without genuine visual understanding.
+We propose RoboMirror, the first retargeting-free video-to-locomotion framework embodying "understand before you imitate". Leveraging VLMs, it distills raw egocentric/third-person videos into visual motion intents, which directly condition a diffusion-based policy to generate physically plausible, semantically aligned locomotion without explicit pose reconstruction or retargeting.
+Extensive experiments validate RoboMirror’s effectiveness, it enables telepresence via egocentric videos, drastically reduces third-person control latency by 80\%, and achieves a 3.7\% higher task success rate than baselines. By reframing humanoid control around video understanding, we bridge the visual understanding and action gap.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Method -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+      <h2 class="title is-3" align="center">Methodology</h2>
+      <div class="content has-text-justified">
+        <img src="static/images/teaser.png" width="100%" height="100%" />
+        <p>
+          RoboMirror makes humanoid understand before imitating. It acts like a mirror, which can not only infer and replicate the actions being performed by the shooter from egocentric videos based on the changes in the surrounding environmental perspective (as shown in the upper part of the figure), but also understand the actions first and then imitate them from third-person videos (as shown in the lower part of the figure), without the need for pose estimation and retargeting during inference.
+        </p>
+      </div>
+      <br>
+      <!-- <h2 class="title is-5">LaMP-T2M and LaMP-M2T frameworks overview:</h2> -->
+      <div class="content has-text-justified">
+        <img src="static/images/framework.png" width="100%" height="100%" />
+        <p>
+          Overview of RoboMirror. It adopts a two-stage framework: initially, it leverages Qwen3-VL to process egocentric or third-person video inputs, generating motion latents through diffusion models with DiT. Subsequently, in the policy learning stage, a MoE-based teacher policy is trained with RL, while a diffusion-based student policy learns to denoise actions under the guidance of reconstructed motion latents. During inference, it can first understand and then imitate the motion in the video without motion obtainment and retargeting.
+        </p>
+      </div>
+  </div>
+</section>
+<!-- End Method -->
+
+
+<!-- Experiments -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+      <h2 class="title is-3" align="center">Experiments</h2>
+      <div class="content has-text-centered">
+        <video id="replay-video"
+               controls
+               muted
+               preload
+               playsinline
+               width="100%">
+          <source src="./static/images/demo.mp4"
+                  type="video/mp4">
+        </video>
+      </div>
+      <h2 class="title is-5">Quantitative Results:</h2>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Tracking Performance</span>
+      </div>
+
+      <div style="text-align: center;">
+        <img src="static/images/tracking_exp.png" width="80%" height="100%"/>
+      </div>
+      <br>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Text-to-Motion Performance</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/mogen_exp.png" width="80%" height="100%"/>
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Ablation Study on Different VLMs</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/ablation_exp.png" width="80%" height="100%"/>
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Pose-driven vs Latent-driven</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/ablation_exp_ie.png" width="80%" height="100%"/>
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Alignment vs Reconstruction</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/ablation_exp_ar.png" width="80%" height="100%"/>
+      </div>
+      <br>
+      <h2 class="title is-5">Qualitative Results:</h2>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Simulation Performance</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/simulation.png" width="80%" height="100%" />
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">MLP Policy vs Diffusion Policy</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/ablation_exp_dm.png" width="80%" height="100%"/>
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Real-world Performance</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/real_1.png" width="80%" height="100%" />
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/real_2.png" width="80%" height="100%" />
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/real_3.png" width="80%" height="100%" />
+      </div>
+      <div style="text-align: center; margin: 8px 0;">
+        <span style="font-size: 1.1em; font-weight: 500;">Generated Motion Visualization</span>
+      </div>
+      <div style="text-align: center;">
+        <img src="static/images/mogen.png" width="80%" height="100%" />
+      </div>
+  </div>
+</section>
+<!-- End Method -->
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+<pre><code>@article{li2025robomirror,
+    title={RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion},
+    author={Zhe Li and Chengchi and Boan Zhu and Yangyang Wei and Shuanghao Bai and Yuheng Ji and Yibo Peng and Tao Huang and Pengwei Wang and and Zhongyuan Wang and S.-H. Gary Chan and Chang Xu and Shanghang Zhang},
+    journal={arXiv preprint arXiv:2510.14952},
+    year={2025}
+}
+    </code></pre>
+  </div>
+</section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
