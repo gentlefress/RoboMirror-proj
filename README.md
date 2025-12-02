@@ -1,2 +1,1 @@
-# RoboMirror-proj
-The project page of RoboMirror
+# RoboMirror: Understand Before You Imitate for Video to Humanoid Locomotion
